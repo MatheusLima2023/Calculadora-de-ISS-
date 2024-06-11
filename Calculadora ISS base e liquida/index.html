@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de ISS</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+<div class="Matriz1">
+    <!--Titulo-->
+    <h1> Calculo Base Bruta</h1>
+
+    <div class ="conteiner1">
+
+        <div class="input1">
+         <!--Entrada de Informação - Input-->
+          <span> Valor Bruto :</span>
+              <input type="number" id="num1" placeholder="Valor Bruto">
+              <p>  ISS : 
+              <input type="number" id="num2" placeholder="%"></p>
+         
+        </div>
+            <!--Resultado-->
+            <div class="resultado1">
+             
+                <span> Valor Liquido: </span>
+                <p id ="result2">
+                    <i class = "fa-solid fa-xmark"></i>
+                </p>
+                <span> Valor do Imposto: </span>
+
+                <p id ="result1">
+                    <i class = "fa-solid fa-xmark"></i>
+                </p>
+            
+            </div>
+
+                <!--Botão-->
+                <div class="Botão">
+                    <button id="calcula">
+                    Calcular
+                    </button>
+                </div>
+        </div>
+</div>
+<!-- Termina Calculo Bruto e Começa o Calculo liquido-->
+<div class="Matriz2">
+    <!--Titulo-->
+    <h1> Calculo Base Liquida</h1>
+
+    <div class ="conteiner2">
+        <!--Entrada de Informação - Input-->
+        <div class="input2">
+
+        <span> Valor Liquido : </span>
+            <input type="number" id="num3" placeholder="Valor Liquido">
+        
+        </div>
+            <!--Resultado-->
+        <div class="resultado2">
+             
+                <span> Valor Bruto: </span>
+                <p id ="result3">
+                    <i class = "fa-solid fa-xmark"></i>
+                </p>
+             
+                <span> Valor do Imposto: </span>
+
+                <p id ="result4">
+                    <i class = "fa-solid fa-xmark"></i>
+                </p>
+        </div>
+              
+            <!--Botão-->
+        <div class="Botão">
+            
+            <button id="calcula5">
+                Calcular 5%
+            </button>
+            <button id="calcula22">
+                Calcular 22%
+            </button>
+          <!--  <button id="limpa">
+                Limpa
+            </button> -->
+        
+        
+        </div>       
+    </div>
+</div>
+    <script src="src/javascript/script.js"></script>
+    <script src="src/javascript/script1.js"></script>
+    <script src="src/javascript/script2.js"></script>
+</body>
+</html>

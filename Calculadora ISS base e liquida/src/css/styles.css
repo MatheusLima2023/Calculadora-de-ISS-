@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200;300;400&display=swap');
+:root{
+    --color-primary-1:#90EE90;
+    --color-primary-2:#00CED1;
+
+    --color-neutral-1: #e5e7eb;
+    --color-neutral-2: #343434;
+    --color-neutral-3: #262626;
+
+
+    --linear-gradient:linear-gradient(120deg, var( --color-primary-1), var(--color-primary-2));
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(120deg, var( --color-primary-1), var(--color-primary-2));
+
+}
+
+.Matriz1{
+    background-color: var(--color-neutral-3);
+    color: var(--color-neutral-1);
+    border: 5px solid;
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    width: 45%;
+    align-items: center;
+}
+
+.Matriz2{
+    background-color: var(--color-neutral-3);
+    color: var(--color-neutral-1);
+    border: 5px solid;
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    width: 45%;
+}
+
+.conteiner1{
+    margin: 5px 0px;
+    align-items: center;
+}
+.conteiner2{
+    margin: 5px 0px;
+    align-items: center;
+}
+
+
+
+.input1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px;
+    
+}
+.input2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.input1 input{
+    background-color: var(--color-neutral-3);
+    color: var(--color-neutral-1);
+    padding: 5px;
+    border: 1px solid var(--color-primary-1);
+    border-radius: 10px;
+    width: 45%;
+    font-size: 15px;
+    text-align: center;
+}
+.input1 input focus-visible{
+    outline: transparent;
+}
+
+.input2 input{
+    background-color: var(--color-neutral-3);
+    color: var(--color-neutral-1);
+    padding: 5px;
+    border: 1px solid var(--color-primary-1);
+    border-radius: 10px;
+    width: 45%;
+    font-size: 15px;
+    text-align: center;
+}
+.input2 input focus-visible{
+    outline: transparent;
+}
+
+.resultado1 span{
+    background-color: var(--color-neutral-3);
+    padding: 1px 0px;
+}
+
+.resultado1 p{
+    background: var(--linear-gradient);
+    color: var(--color-neutral-3);
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    margin: 5px 0px;
+
+}
+
+
+
+.resultado2 span{
+    background-color: var(--color-neutral-3);
+    padding: 1px 0px;
+}
+
+.resultado2 p{
+    background: var(--linear-gradient);
+    color: var(--color-neutral-3);
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+
+
+#calcula{
+    background: var(--linear-gradient);
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 25%;
+    transition: background-color .5s ease;
+    margin: 5px 0px;
+}
+#calcula5{
+    background: var(--linear-gradient);
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+    font-weight: 500;
+    cursor:pointer;
+    width:40%;
+    transition:background-color.5s ease;
+    margin: 5px 0px;
+}
+#calcula22{
+    background: var(--linear-gradient);
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 40%;
+    transition: background-color .5s ease;
+    margin: 5px 0px;
+}
+#limpa{
+    background: var(--linear-gradient);
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 25%;
+    transition: background-color .5s ease;
+    margin-bottom: 0px;
+}
+#calcula:hover{
+background-color: var(--color-primary-2);    
+}
+#calcula5:hover{
+background-color: var(--color-primary-2);    
+}
+#calcula22:hover{
+background-color: var(--color-primary-2);    
+}
+#limpa:hover{
+background-color: var(--color-primary-2);    
+}
